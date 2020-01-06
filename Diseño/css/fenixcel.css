@@ -1,0 +1,309 @@
+html{
+font-family: "Trebuchet MS";
+background-size: 100%;
+}
+/*Titulos y parrafo (p) inicio*/
+h1, h2, h3, h5 {
+color: #333238;
+}
+p{
+color: #333238;
+line-height: 150%;
+font-size: large;
+}
+/*Titulos y parrafo (p) fin*/
+
+/*Tabla general inicio*/
+table { 
+color: #FF6652;
+font-size: large;
+size: 550px;  
+border-radius: 12px;
+}
+.link{
+	color: #FF6652;
+}
+.login {  
+	font-family: "Trebuchet MS";
+	background: white;
+	border-radius: 12px;
+	font-size: 19px;
+	color:#3065B3; 
+	border: 1px solid white;
+	padding: 2spx 10px 2px 10px; 
+	cursor: pointer; 
+	float: left; 
+  }
+  .login:hover {
+	background-color: #FF6652;
+	color: white;
+	border: 1px solid #FF6652;
+  }
+/*Tabla general fin*/
+
+/*Pie de pagina inicio*/
+footer {
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,1) 5%, rgba(38,38,42,1) 29%, rgba(29,29,33,1) 69%, rgba(0,0,0,1) 95%);
+	clear: both;
+}
+.foot1 {
+	padding: 0px 0px 0px 0px;
+
+} 
+th#titulos {
+	color: #DCDEDE;
+	padding: 0px 64px 12px 64px;;
+}
+td#cols{
+	
+		padding: 0px 0px 0px 44px;
+	color: white;
+}
+
+
+
+/*Pie de pagina fin*/
+/*Inicio Diseño menus admin*/
+.Usuario{
+padding: 0px 0px 0px 180px;
+}
+.Usuario a:hover{
+	color: #FF5A00;
+}
+/*Fin Diseño menus admin*/
+
+/*Barra de busqueda inicio*/
+.busqueda {
+padding: 0px 0px 0px 135px;
+}
+.busqueda input{
+	font-size: 18px;
+	font-family: "Trebuchet MS";
+	color: #333238;
+	padding: 0px 5px 0px 16px; 
+	border-radius: 18px;
+	border-style: solid;
+}
+/*Barra de busqueda fin*/
+
+/*Registro y iniciar sesion inicio*/
+.registro{
+	padding: 0px 4px 0px 80px;
+	color: aliceblue;
+}
+.registro a{
+	 color: aliceblue;
+}
+.registro input{
+	width: 100px;
+	height: 10px;
+}
+div{
+background: #3065B3;
+} 
+#div1{
+	background: white;
+}
+/*Registro y iniciar sesion fin*/
+
+/*Codigo para el banner inicio*/
+.slider{
+background: white;
+width: 100%;
+margin: auto;
+overflow: hidden;
+}
+.slider ul{
+	padding: 0;
+	display: flex;
+	width: 300%;
+	animation: slider 12s infinite;
+	animation-direction: alternate;
+}
+.slider li{
+	list-style: none;
+	width: 100%;
+}
+.slider img {
+	width: 100%;
+	box-shadow: 5px 5px 5px grey;
+}
+a{
+	color: #1814CC;
+}
+@keyframes slider {
+0% {margin-left: 0;}
+30% {margin-left: 0;}
+
+35% {margin-left: -100%}
+65% {margin-left: -100%}
+
+70% {margin-left: -200%}
+100% {margin-left: -200%}
+}
+/*Codigo para el banner fin*/
+
+/*Botones (Catalogo, Inicio .etc)(mirar id's de botones) inicio*/
+.btns input {
+	font-family: "Trebuchet MS";
+	background: white;
+	font-size: 22px;
+	color: #3065B3;
+	border: 1px solid #FF6652;
+	border-bottom: none;
+	text-align: center;
+	padding: 12px 28px;
+	display: inline-block;
+}
+.btns input:hover {
+  background-color: #FF6652;
+  color: white;
+}
+#bt1{
+	border-left: 2px solid  #FF6652;
+}
+#bt5{
+	border-right: 2px solid  #FF6652;
+}
+/*Botones (Catalogo, Inicio .etc)(mirar id's de botones) fin*/
+.cate{
+	margin: auto;
+}
+.cate td{
+	text-align: center;
+}
+
+.cate img {
+border: #FF5A00 2px solid;
+width: 80px;
+height: 80px;
+padding: 20px 40px 20px;
+}
+.cate td{
+padding: 10px 50px 10px 50px;
+border-collapse: separate;
+}
+.cate img:hover{
+	border: 2px solid #1814CC;
+	box-shadow: 5px 5px 5px  #FF5A00 ;
+}
+.cate a{
+color: blue;
+}
+.cate a:hover{
+	color: orange;
+	}
+.prod input[type=number]{
+width: 50px;
+height: 50px;
+font-size: 30px;
+}
+.cajaProd{
+	background: white;
+}
+.coti{
+	color: blue;
+}
+.cajaProd a{
+	color :blue;
+}
+/* Ordenando crud de productos LAC */
+.aggSL{
+	border: #1814CC 2px solid;
+	margin-top: 20px;
+	margin-left:300px;
+}
+.aggSL input[type=submit]{
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+	background: #1814CC;
+	color: white;
+	border: none;
+}
+.aggSL input[type=submit]:hover{
+	background: orange
+}
+
+.listSL{
+	border: #1814CC 2px solid;
+	margin-top: 20px;
+}
+.listSL a{
+	color: blue;
+}
+.SL{
+	background: white;
+	margin: auto;
+}
+.cajaSL{
+	background: white;
+	scrollbar-width: auto;
+}
+.tabAggProd{
+	border: #1814CC 2px solid;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tabAggProd input[type=submit]{
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+	background: #1814CC;
+	color: white;
+	border: none;
+}
+.tabAggProd input[type=submit]:hover{
+	background: orange
+}
+.listProd{
+	border: #1814CC 2px solid;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: separate;
+	border-spacing: 10px;
+	text-align: center;
+}
+.listProd a{
+	color: blue;
+}
+.listProd input[type=submit]{
+	border: none;
+	background: orange;
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+}
+.listProd input[type=submit]:hover{
+	background: blue;
+}
+.listProdMin{
+	border: #1814CC 2px solid;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: separate;
+	border-spacing: 50px;
+	text-align: center;
+	max-width: 900px;
+}
+.listProdMin a{
+	color: blue;
+}
+.listProdMin input[type=submit]{
+	border: none;
+	background: orange;
+	width: 200px;
+	height: 20px;
+	border-radius: 30px;
+}
+.listProdMin input[type=submit]:hover{
+	background: blue;
+}
+.listProdMin td{
+	height: 300px;
+	width: 200px;
+}

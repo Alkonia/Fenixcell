@@ -1,0 +1,143 @@
+html{
+font-family: "Trebuchet MS";
+background-size: 100%;
+}
+/*Titulos y parrafo (p) inicio*/
+h1, h2, h3, h5 {
+color: #333238;
+}
+p{
+color: #333238;
+line-height: 150%;
+font-size: large;
+}
+/*Titulos y parrafo (p) fin*/
+
+/*Tabla general inicio*/
+table { 
+color: #FF6652;
+font-size: large;
+size: 550px;  
+border-radius: 12px;
+}
+/*Tabla general fin*/
+
+/*Pie de pagina inicio*/
+footer {
+	background-color: black;
+	position: sticky;
+	clear: both;
+}
+/*Pie de pagina fin*/
+
+/*Barra de busqueda inicio*/
+.busqueda {
+padding: 0px 0px 0px 145px;
+}
+.busqueda input{
+	font-size: 18px;
+	font-family: "Trebuchet MS";
+	color: #333238;
+	padding: 0px 5px 0px 16px; 
+	border-radius: 18px;
+	border-style: solid;
+}
+/*Barra de busqueda fin*/
+
+/*Registro y iniciar sesion inicio*/
+.registro{
+	padding: 0px 4px 0px 80px;
+	color: aliceblue;
+}
+.registro a{
+	 color: black
+}
+.registro input{
+	width: 100px;
+	height: 10px;
+}
+div{
+background: #3065B3;
+} 
+#div1{
+	background: white;
+}
+/*Registro y iniciar sesion fin*/
+
+/*Codigo para el banner inicio*/
+.slider{
+background: white;
+width: 100%;
+margin: auto;
+overflow: hidden;
+}
+.slider ul{
+	padding: 0;
+	display: flex;
+	width: 300%;
+	animation: slider 12s infinite;
+	animation-direction: alternate;
+}
+.slider li{
+	list-style: none;
+	width: 100%;
+}
+.slider img {
+	width: 100%;
+	box-shadow: 5px 5px 5px grey;
+}
+@keyframes slider {
+0% {margin-left: 0;}
+30% {margin-left: 0;}
+
+35% {margin-left: -100%}
+65% {margin-left: -100%}
+
+70% {margin-left: -200%}
+100% {margin-left: -200%}
+}
+/*Codigo para el banner fin*/
+
+/*Botones (Catalogo, Inicio .etc)(mirar id's de botones) inicio*/
+.btns input {
+	font-family: "Trebuchet MS";
+	background: white;
+	font-size: 22px;
+	color: #3065B3;
+	border: 1px solid #FF6652;
+	border-bottom: none;
+	text-align: center;
+	padding: 12px 28px;
+	display: inline-block;
+}
+.btns input:hover {
+  background-color: #FF6652;
+  color: white;
+}
+#bt1{
+	border-left: 2px solid  #FF6652;
+}
+#bt5{
+	border-right: 2px solid  #FF6652;
+}
+/*Botones (Catalogo, Inicio .etc)(mirar id's de botones) fin*/
+/*Botones (Admin) fin*/
+.opcAdmin{
+	background: white;
+
+}
+.opcAdmin table{
+	margin: auto;	
+}
+.opcAdmin input{
+	font-size: 30px;
+	font-display: white;
+	width: 600px;
+	height: 130px;
+	background: #3065B3;
+	color: white;
+}
+.opcAdmin :hover{
+	background: #FF6652;
+}
+/*Botones (Admin) fin*/

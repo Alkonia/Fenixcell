@@ -1,0 +1,10 @@
+<?php
+session_start(); 
+ if($_SESSION['id_usu']){ 
+     session_destroy();
+     header("location:../index/index.php");
+ }
+ else{
+     echo"error"; 
+ }
+?>
